@@ -1,7 +1,3 @@
-README.md
-
- file for your speech analyzer application. This file provides instructions on how to set up and run the application.
-
 ```markdown
 # Speech Analyzer
 
