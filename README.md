@@ -33,12 +33,3 @@ This project is an audio transcription and analysis application built using Grad
 ## Code Overview
 
 ### `speech_analyzer.py`
-
-#### Imports
-```python
-import gradio as gr
-from transformers import pipeline
-import torch
-import warnings
-import time
-from functools import lru_cache
