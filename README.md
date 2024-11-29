@@ -13,7 +13,7 @@ This is a speech transcription application that uses Gradio for the user interfa
 
 - Python 3.11
 - Homebrew (for macOS users)
-```
+
 ## Installation
 
 ### 1. Install Homebrew (macOS only)
