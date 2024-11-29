@@ -30,6 +30,3 @@ This project is an audio transcription and analysis application built using Grad
 
 2. Open the provided URL in your browser to access the application.
 
-## Code Overview
-
-### `speech_analyzer.py`
