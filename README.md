@@ -115,8 +115,29 @@ If you encounter any issues, please ensure that all dependencies are installed c
 
 ### **Summary**
 
-This 
 
-README.md
+1. Create new environment with Python 3.10:
+```bash
+python3.10 -m venv my_env
+source my_env/bin/activate
+```
 
- file provides a comprehensive guide for setting up and running your speech analyzer application. It includes instructions for installing dependencies, setting up the virtual environment, and running the application. If you have any specific requirements or additional features, you can modify the README accordingly.
+2. Install dependencies:
+```bash
+pip install --upgrade pip
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0
+pip install gradio==4.44.1
+pip install transformers==4.36.0
+```
+
+3. Verify installations:
+```python
+python3 -c "import torch; import gradio; import transformers; print(f'PyTorch: {torch.__version__}\nGradio: {gradio.__version__}\nTransformers: {transformers.__version__}')"
+```
+
+If Python 3.10 is not installed:
+```bash
+brew install python@3.10
+```
+
+Then repeat the steps above.
