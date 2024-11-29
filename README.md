@@ -22,13 +22,12 @@ If you don't have Homebrew installed, you can install it using the following com
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+
 
 ### 2. Install Python 3.11
 
 ```bash
 brew install python@3.11
-```
 
 ### 3. Set up the virtual environment
 
@@ -38,13 +37,11 @@ Navigate to your project directory and create a virtual environment:
 cd /path/to/speech-analyzer
 python3.11 -m venv venv
 source venv/bin/activate
-```
 
 ### 4. Upgrade pip and install build tools
 
 ```bash
 pip install --upgrade pip setuptools wheel
-```
 
 ### 5. Install system dependencies
 
@@ -52,13 +49,11 @@ pip install --upgrade pip setuptools wheel
 brew install pkg-config
 brew install protobuf
 brew install sentencepiece
-```
 
 Set the `PKG_CONFIG_PATH` environment variable:
 
 ```bash
 export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
-```
 
 ### 6. Install Python packages
 
@@ -73,7 +68,6 @@ gradio==3.50.2
 pyaudio==0.2.13
 sentencepiece
 protobuf
-```
 
 Install the packages:
 
@@ -83,15 +77,12 @@ pip install -r
 requirements.txt
 
 
-```
-
 ### 7. Verify package installation
 
 Confirm that `torch` and other packages are installed correctly:
 
 ```bash
 python -c "import torch; print(torch.__version__)"
-```
 
 ## Running the Application
 
@@ -102,8 +93,6 @@ python
 
 speech_analyzer.py
 
-
-```
 
 ## Usage
 
@@ -116,8 +105,6 @@ speech_analyzer.py
 
 If you encounter any issues, please ensure that all dependencies are installed correctly and that you are using Python 3.11. If problems persist, feel free to open an issue or contact the maintainer.
 
-
-```
 
 ### **Summary**
 
