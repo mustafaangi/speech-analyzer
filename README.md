@@ -1,4 +1,4 @@
-```markdown
+
 # Speech Analyzer
 
 This is a speech transcription application that uses Gradio for the user interface and Hugging Face's Transformers library for speech-to-text and text analysis.
