@@ -23,11 +23,13 @@ If you don't have Homebrew installed, you can install it using the following com
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+'''
 
 ### 2. Install Python 3.11
 
 ```bash
 brew install python@3.11
+'''
 
 ### 3. Set up the virtual environment
 
@@ -37,11 +39,13 @@ Navigate to your project directory and create a virtual environment:
 cd /path/to/speech-analyzer
 python3.11 -m venv venv
 source venv/bin/activate
+'''
 
 ### 4. Upgrade pip and install build tools
 
 ```bash
 pip install --upgrade pip setuptools wheel
+'''
 
 ### 5. Install system dependencies
 
